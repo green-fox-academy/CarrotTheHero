@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    background-image: url(../images/background.jpeg);
+    line-height: 30px;
+    font-family: 'Inconsolata', monospace, Courier;  
+}
+
+article {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    padding: 60px 0px 0px 0px;
+    font-size: 50px;
+}
+
+.honey {
+    font-size: 20px;
+}
+
+.cheese,
+h3 {
+    text-align: center;
+}
+
+.cheese {
+    padding-top: 30px;
+    
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h2 {
+    padding: 30px 0px 0px 0px;
+    color:#ff0099;
+    font-size: 35px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1,
+h3,
+h4 {
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    color: #ff0099;
+    padding: 12px 18px 0px 18px;
+    text-transform: uppercase;
+    float: right;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+div {
+    background: #333333;
+    width: 100%;
+    height: 55px;
+}
+
+img {
+    padding-left: 10%;
+    padding-top:12px;
+}
