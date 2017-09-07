@@ -1,0 +1,28 @@
+h1 {
+    font-size: 36px;
+}
+
+tr:hover {
+    background: #eb6842;
+}
+
+td {
+    font-size: 18px;
+    width: 340px;
+    text-align: center;
+    border: 2.2px solid black;
+    padding: 10px;    
+}
+
+table {
+    width: 340px;
+    border-collapse: collapse;
+}
+
+.snow {
+    border-top: none;
+}
+
+.sand {
+    border-bottom: none;
+}
