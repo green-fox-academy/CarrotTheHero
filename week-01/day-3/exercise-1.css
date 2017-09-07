@@ -1,0 +1,14 @@
+p {
+    font-size: 36px;
+    color: #035866;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border: 5px solid #7cce93;
+    background: #0e91a1;    
+    box-sizing: content-box;
+    display: block;
+    height: 130px;
+    padding: 20px 0px 0px 15px;
+    width: 380px;
+    margin: 15px 0px 15px 0px;
+}
