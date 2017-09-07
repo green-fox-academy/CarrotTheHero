@@ -1,0 +1,28 @@
+h1 {
+    color: #ff654a;
+}
+
+h2 {
+    color: #a05ce6;
+}
+
+p {
+    width: 30%;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+ul {
+    list-style: square;
+}
+
+ol li {
+    text-decoration: underline;
+    color: #ff72ff;
+}
+
+ol li:last-child {
+    color:black;
+}
