@@ -1,0 +1,36 @@
+.box {
+    height: 50px;
+    width: 50px;
+    background: #4285f4;
+    display: inline-block;
+    top:20px;
+    left:20px;
+    position: relative;
+    margin: 10px;
+}
+
+.george {
+    margin: 0px 0px 12px 0px;
+    border: 2px solid #4285f4;
+    height: 110px;
+    width: 780px;
+}
+
+.ham {
+    height: 50px;
+    width: 50px;
+    background: #623579;
+    display: inline-block;
+    top:20px;
+    left:20px;
+    position: relative;
+    margin: 10px;
+}
+
+.fish {
+    background: #ff6347;
+    margin: 0px;
+    border: 2px solid #623579;
+    height: 110px;
+    width: 780px;
+}   
