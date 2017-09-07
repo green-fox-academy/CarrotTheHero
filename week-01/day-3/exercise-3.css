@@ -1,0 +1,20 @@
+table {
+    border: 15px solid #4285f4;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    width: 380px;
+    height: 290px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+table:nth-of-type(1) {
+    background-color: #e67676;
+}
+table:nth-of-type(2) {
+    background-color: #a9e6e6;
+}
