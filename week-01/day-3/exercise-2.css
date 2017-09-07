@@ -1,0 +1,28 @@
+table {
+    border: 15px solid #4285f4;
+    width: 390px;
+    height: 550px;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-kerning: none;
+    color:white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(1) {
+    background-color: #e67676;
+}
+
+tr:nth-child(2) {
+    background-color: #f2f062;
+}
+
+tr:nth-child(3) {
+    background-color: #a9e6e6;
+}
+
+tr:nth-child(4) {
+    background-color: #7692e4;
+}
