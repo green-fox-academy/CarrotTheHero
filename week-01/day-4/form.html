@@ -18,7 +18,7 @@
                Személyes adatok
                 </p>  
 
-                <label for="name">Név: <abbr title="required">*</abbr></label>
+                <label for="name">Név:<abbr title="required">*</abbr></label>
                 <input id="name" type="text" name="user_name">
             </div>
                 <div class="left_left">
@@ -96,6 +96,26 @@
                 <p>
                     Kapcsolat
                 </p>
+                <label for="telefonszám">Telefonszám:<abbr title="required">*</abbr></label>
+                <input id="telefonszám" type="tel" name="user_phonenumber">
+
+                <label for="email">E-Mail cím:<abbr title="required">*</abbr></label>
+                <input id="email" type="email" name="user_email">
+
+                <label for="fbook">Facebook profilod:</label>
+                <input id="fbook" type="text" name="user_fb">
+
+                <label for="twitter">Twitter profilod:</label>
+                <input id="twitter" type="text" name="user_twitter">
+
+                <label for="house">Milyen házban laksz?</label>
+                <form action="/action_page.php">
+                    <select name="house">
+                      <option value="none"></option>
+                      <option value="kert">Kertes</option>
+                      <option value="panel">Pantel</option>
+                      <option value="iker">Iker</option>
+                    </select>
             </div>
             <div class="bottom"></div>
         </div>
