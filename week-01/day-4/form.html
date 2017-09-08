@@ -11,15 +11,33 @@
     <body>
         <div class="whole box">
             <div class="top">
+                Profil
+            </div>
+            <div class="left">
                 <p>
-                    Profile
+               Személyes adatok
+                </p>  
+
+                <label for="name">Név: <abbr title="required">*</abbr></label>
+                <input id="name" type="text" name="user_name">
+            </div>
+                <div class="left_left">
+                    <label for="birthdate">Születési éved: <abbr title="required">*</abbr></label>
+                    <input id="birthdate" type="date" name="user_birthdate">
+                </div>
+                <div class="left_right">
+                    <legend>Nemed</legend>
+                    <input type="radio" id="sex1" name="sex" value="female">
+                    <label for="sex1">Nő</label>
+                    <input type="radio" id="sex2" name="sex" value="male">
+                    <label for="sex2">Férfi</label>
+                </div>
+                <div class="left_bottom"></div>
+            <div class="right">
+                <p>
+                    Kapcsolat
                 </p>
             </div>
-            <div class="left"></div>
-                <div class="left_left"></div>
-                <div class="left_right"></div>
-                <div class="left_bottom"></div>
-            <div class="right"></div>
             <div class="bottom"></div>
         </div>
     </body>
