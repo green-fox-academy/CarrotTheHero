@@ -1,0 +1,45 @@
+.whole {
+    background-origin: border-box;
+    background: #127731;
+    width: 455px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.top {
+    width: 435px;
+    height: 13px;
+    background: #ffe42e;
+    border: 10px solid #ff1200;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.left {
+    margin-top: 55px;
+    width: 208px;
+    height: 320px;
+    background: #ffe42e;
+    border: 10px solid #ff1200;
+    position: absolute;
+    float: left;
+}
+
+.right {
+    margin-top: 55px;    
+    width: 208px;
+    height: 320px;
+    background: #ffe42e;
+    border: 10px solid #ff1200;
+    position: relative;
+    float: right;
+}
+
+.bottom {
+    width: 435px;
+    height: 120px;
+    background: #ffe42e;
+    border: 10px solid #ff1200;
+    position: absolute;
+    margin-top: 406px;
+}
