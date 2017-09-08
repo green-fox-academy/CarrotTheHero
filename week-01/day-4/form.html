@@ -10,6 +10,7 @@
 
     <body>
         <div class="whole box">
+            <form action="">
             <div class="top">
                 Profil
             </div>
@@ -113,11 +114,25 @@
                     <select name="house">
                       <option value="none"></option>
                       <option value="kert">Kertes</option>
-                      <option value="panel">Pantel</option>
+                      <option value="panel">Panel</option>
                       <option value="iker">Iker</option>
                     </select>
             </div>
-            <div class="bottom"></div>
+            <div class="bottom">
+                    
+                <label for="you">Bemutatkozás:<abbr title="required">*</abbr></label>
+                <input id="you" type="text" name="user_you">
+
+                <label for="CV">CV feltöltése:</label>
+                <input id="CV" type="file" name="user_CV">
+
+                <input id="szerz" type="checkbox" name="user_szerz">
+                <label for="szerz">Elfogadom a <a href="http://www.theuselessweb.com/" target="_blank"> fehasználási feltételeket</a></label>
+
+                <input type="submit">
+                <input type="reset" value="Reset">
+            </div>
         </div>
+    </form>
     </body>
 </html>
