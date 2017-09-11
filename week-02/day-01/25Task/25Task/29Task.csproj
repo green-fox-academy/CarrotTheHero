@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFAA2631-E94F-4D57-B8CE-53C0B93BFA03}</ProjectGuid>
+    <ProjectGuid>{9B48E798-A607-44D8-B934-E91388C6DABB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_23Task</RootNamespace>
-    <AssemblyName>23Task</AssemblyName>
+    <RootNamespace>_25Task</RootNamespace>
+    <AssemblyName>25Task</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program23.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
