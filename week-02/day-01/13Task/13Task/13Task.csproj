@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F576CD1A-887E-41B0-8E8B-20323757D000}</ProjectGuid>
+    <ProjectGuid>{20BAC209-27A5-4779-A14C-2DC1DE876071}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SeventhTask</RootNamespace>
-    <AssemblyName>SeventhTask</AssemblyName>
+    <RootNamespace>_13Task</RootNamespace>
+    <AssemblyName>13Task</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program-seventh.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

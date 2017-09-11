@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F576CD1A-887E-41B0-8E8B-20323757D000}</ProjectGuid>
+    <ProjectGuid>{AA61310E-61EB-44A2-87DD-09CD221C7C87}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SeventhTask</RootNamespace>
-    <AssemblyName>SeventhTask</AssemblyName>
+    <RootNamespace>TenthTask</RootNamespace>
+    <AssemblyName>TenthTask</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program-seventh.cs" />
+    <Compile Include="Program-tenth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

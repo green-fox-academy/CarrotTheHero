@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F576CD1A-887E-41B0-8E8B-20323757D000}</ProjectGuid>
+    <ProjectGuid>{817054F0-6929-4041-824D-12074503B363}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SeventhTask</RootNamespace>
-    <AssemblyName>SeventhTask</AssemblyName>
+    <RootNamespace>EighthTask</RootNamespace>
+    <AssemblyName>EighthTask</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program-seventh.cs" />
+    <Compile Include="Program-eighth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
