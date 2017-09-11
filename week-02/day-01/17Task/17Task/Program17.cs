@@ -11,21 +11,24 @@ namespace GreenFox
             //
             // Sum: 22, Average: 4.4
             Console.Write("Enter first number: ");
-            int num1 = Int32.Parse(Console.ReadLine());
+            int num1 = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter second number: ");
-            int num2 = Int32.Parse(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter third number: ");
-            int num3 = Int32.Parse(Console.ReadLine());
+            int num3 = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter fourth number: ");
-            int num4 = Int32.Parse(Console.ReadLine());
+            int num4 = Convert.ToInt32(Console.ReadLine());
 
-            int sum = num1 + num2 + num3 + num4;
+            Console.Write("Enter fifth number: ");
+            int num5 = Convert.ToInt32(Console.ReadLine());
+
+            int sum = num1 + num2 + num3 + num4 + num5;
             Console.WriteLine("Sum is: " + sum);
 
-            double ave = (num1 + num2 + num3 + num4) / 4.0;
+            double ave = (num1 + num2 + num3 + num4 + num5) / 4.0;
             Console.WriteLine("Average is: " + ave);
 
             Console.ReadLine();
