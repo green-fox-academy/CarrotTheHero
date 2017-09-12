@@ -19,8 +19,20 @@ namespace GreenFox
 
             Console.Write("write down a number: ");
             int number = Convert.ToInt32(Console.ReadLine());
+            Console.Write("\n");
             for (int i = 0; i <= number; i++)
-                Console.WriteLine("*");
+            {
+                for (int s = i; s <= number; s++)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 1; j < (i * 2); j++)
+                {
+                    Console.Write("*");
+                }
+                Console.Write("\n");
+            }
+
 
             Console.ReadLine();
         }
