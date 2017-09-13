@@ -18,7 +18,7 @@ namespace TodoPrint
             //  - Download games
             //      - Diablo
 
-            todoText = todoText.Insert(0, "My todo:\n") + " - Download games" + " \n    - Diablo";
+            todoText = todoText.Insert(0, "My todo:\n") + " - Download games" + " \n   - Diablo";
 
             Console.WriteLine(todoText);
             Console.ReadLine();
