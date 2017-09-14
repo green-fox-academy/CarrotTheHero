@@ -9,31 +9,63 @@ namespace GreenFox
             Console.Write("Write down a number to build up the pyramid: ");
             int sum = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < sum; i++)
+            if (sum % 2 == 0)
             {
-                for (int k = 1; k < sum - i + 1; k++)
+                for (int i = 0; i < sum / 2; i++)
                 {
-                    Console.Write(" ");
+                    for (int k = 1; k < sum - i + 1; k++)
+                    {
+                        Console.Write(" ");
+                    }
+                    for (int j = 0; j < i; j++)
+                    {
+                        Console.Write("*");
+                        Console.Write(" ");
+                    }
+                    Console.WriteLine("*");
                 }
-                for (int j = 0; j < i; j++)
+                for (int i = sum / 2 - 1; i >= 0; i--)
                 {
-                    Console.Write("*");
-                    Console.Write(" ");
+                    for (int k = sum - i + 1; k > 1; k--)
+                    {
+                        Console.Write(" ");
+                    }
+                    for (int j = 0; j < i; j++)
+                    {
+                        Console.Write("*");
+                        Console.Write(" ");
+                    }
+                    Console.WriteLine("*");
                 }
-                Console.WriteLine("*");
             }
-            for (int i = sum; i >= 0; i--)
+            else if (sum % 2 != 0)
             {
-                for (int k = sum - i + 1; k > 1; k--)
+                for (int i = 0; i < sum / 2 + 1; i++)
                 {
-                    Console.Write(" ");
+                    for (int k = 1; k < sum - i + 1; k++)
+                    {
+                        Console.Write(" ");
+                    }
+                    for (int j = 0; j < i; j++)
+                    {
+                        Console.Write("*");
+                        Console.Write(" ");
+                    }
+                    Console.WriteLine("*");
                 }
-                for (int j = 0; j < i; j++)
+                for (int i = sum / 2 - 1; i >= 0; i--)
                 {
-                    Console.Write("*");
-                    Console.Write(" ");
+                    for (int k = sum - i + 1; k > 1; k--)
+                    {
+                        Console.Write(" ");
+                    }
+                    for (int j = 0; j < i; j++)
+                    {
+                        Console.Write("*");
+                        Console.Write(" ");
+                    }
+                    Console.WriteLine("*");
                 }
-                Console.WriteLine("*");
             }
             Console.ReadLine();
         }
