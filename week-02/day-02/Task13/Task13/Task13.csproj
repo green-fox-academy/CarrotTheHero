@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D536859B-61F3-49E6-A360-3D6773D5781B}</ProjectGuid>
+    <ProjectGuid>{2E231F72-0B77-4632-98A0-C9844BA4BB17}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task11</RootNamespace>
-    <AssemblyName>Task11</AssemblyName>
+    <RootNamespace>Task13</RootNamespace>
+    <AssemblyName>Task13</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program11.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
