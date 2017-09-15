@@ -23,8 +23,6 @@ namespace GreenFox
                 }
                 Console.WriteLine("*");
             }
-
-
             Console.ReadLine();
             // Write a program that reads a number from the standard input, then draws a
             // pyramid like this:
