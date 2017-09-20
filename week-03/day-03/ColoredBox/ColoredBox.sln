@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredBox", "ColoredBox\ColoredBox.csproj", "{DBA44E7C-D081-418D-A371-12927DFC1155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBA44E7C-D081-418D-A371-12927DFC1155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA44E7C-D081-418D-A371-12927DFC1155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA44E7C-D081-418D-A371-12927DFC1155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA44E7C-D081-418D-A371-12927DFC1155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {877FE706-DE95-4629-A05C-76E022B12541}
+	EndGlobalSection
+EndGlobal
