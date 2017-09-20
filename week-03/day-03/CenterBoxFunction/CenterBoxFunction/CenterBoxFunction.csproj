@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5766DC57-08C3-4449-8037-5F534D1B0062}</ProjectGuid>
+    <ProjectGuid>{C62F9E0B-69B2-4354-AA79-47DB3B97BC83}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PositionSquare</RootNamespace>
-    <AssemblyName>PositionSquare</AssemblyName>
+    <RootNamespace>CenterBoxFunction</RootNamespace>
+    <AssemblyName>CenterBoxFunction</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -62,7 +62,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FoxDraw.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
