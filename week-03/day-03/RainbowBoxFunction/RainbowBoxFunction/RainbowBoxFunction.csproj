@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C62F9E0B-69B2-4354-AA79-47DB3B97BC83}</ProjectGuid>
+    <ProjectGuid>{2C6AED13-3FE2-492F-A5E0-9BF3D7AA2E11}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CenterBoxFunction</RootNamespace>
-    <AssemblyName>CenterBoxFunction</AssemblyName>
+    <RootNamespace>RainbowBoxFunction</RootNamespace>
+    <AssemblyName>RainbowBoxFunction</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
