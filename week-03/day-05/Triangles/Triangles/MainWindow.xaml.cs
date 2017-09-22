@@ -41,11 +41,13 @@ namespace Triangles
             foxDraw.DrawLine(zero, zero, haromszaz, zero);
             foxDraw.DrawLine(zero, zero, szazotven, haromszaz);
             foxDraw.DrawLine(haromszaz, zero, szazotven, haromszaz);
-            
-            if (haromszaz - zero < 5)
-                return 0;
-                        
-            return DrawLines(zero / 2, szazotven / 2, haromszaz / 2);
+
+            if (haromszaz > 5)
+            {
+                DrawLines(zero / 2, szazotven / 2, haromszaz / 2);
+                DrawLines(szazotven / 2, haromszaz / 2, haromszaz / 2);
+            }
+            return 0;
         }                    
     }
 }
