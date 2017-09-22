@@ -24,30 +24,51 @@ namespace Triangles
         public MainWindow()
         {
             InitializeComponent();
-            var foxDraw = new FoxDraw(canvas);
+            FoxDraw foxDraw = new FoxDraw(canvas);
+            foxDraw.StrokeColor(Colors.Black);
+            foxDraw.FillColor(Colors.White);
+            float level = 7;
+            float inputWidth = (float)canvas.Width;
+            float inputHeight = (float)canvas.Height;
+            float xStart = 0;
+            float xEnd = 0;
 
-            int zero = 0;
-            int szazotven = 150;
-            int haromszaz = 300;
+            var pointsOfTriangle = new List<Point>();
 
-            DrawLines(zero, szazotven, haromszaz);
-
+            TriangleDrawer(foxDraw, level, inputWidth, inputHeight, xStart, xEnd);
+            Console.ReadLine();
         }
 
-        private int DrawLines(int zero, int szazotven, int haromszaz)
+        public void TriangleDrawer(FoxDraw foxDraw, float levelInput, float widthValue, float heightValue, float xInput, float yInput)
         {
-            var foxDraw = new FoxDraw(canvas);
-
-            foxDraw.DrawLine(zero, zero, haromszaz, zero);
-            foxDraw.DrawLine(zero, zero, szazotven, haromszaz);
-            foxDraw.DrawLine(haromszaz, zero, szazotven, haromszaz);
-
-            if (haromszaz > 5)
+            if (levelInput == 0)
             {
-                DrawLines(zero / 2, szazotven / 2, haromszaz / 2);
-                DrawLines(szazotven / 2, haromszaz / 2, haromszaz / 2);
+                return;
             }
-            return 0;
-        }                    
+            else
+            {
+                var pointsOfTriangle = new List<Point>();
+
+                pointsOfTriangle.Add(new Point(xInput, yInput));
+                pointsOfTriangle.Add(new Point(xInput + widthValue, yInput));
+                pointsOfTriangle.Add(new Point(xInput + widthValue / 2, yInput + heightValue));
+
+                foxDraw.DrawPolygon(pointsOfTriangle);
+
+                float width = widthValue / 2;
+                float height = heightValue / 2;
+
+                float x0 = xInput;
+                float x1 = xInput + width;
+                float x2 = xInput + width / 2;
+
+                float y0 = yInput;
+                float y2 = yInput + height;
+
+                TriangleDrawer(foxDraw, levelInput - 1, width, height, x0, y0);
+                TriangleDrawer(foxDraw, levelInput - 1, width, height, x1, y0);
+                TriangleDrawer(foxDraw, levelInput - 1, width, height, x2, y2);
+            }
+        }
     }
 }
