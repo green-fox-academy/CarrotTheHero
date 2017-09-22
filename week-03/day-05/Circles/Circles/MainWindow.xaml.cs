@@ -27,8 +27,8 @@ namespace Circles
             var foxDraw = new FoxDraw(canvas);
 
 
-            double x = 150;
-            double y = 150;
+            double x = 0;
+            double y = 0;
             double rad = 300;
 
             DrawTheCicle(x,y,rad);
@@ -38,16 +38,16 @@ namespace Circles
         {
             var foxDraw = new FoxDraw(canvas);
 
-            foxDraw.FillColor(Colors.White);
+            foxDraw.FillColor(Colors.Transparent);
             foxDraw.StrokeColor(Colors.Black);
 
             foxDraw.DrawEllipse(x, y, rad, rad);
             
-            if (rad >= 50)
+            if (rad >= 10)
             {
-                DrawTheCicle(x/2, y/2, rad/3);
-                DrawTheCicle(x/3, y/3, rad/3);
-                DrawTheCicle(x/4, y/4, rad/3);
+                DrawTheCicle(canvas.Width/4, 0, rad/2);
+                DrawTheCicle(canvas.Width/25, canvas.Height/2.6, rad/2);
+                DrawTheCicle(canvas.Width/2.18, canvas.Height/2.6, rad/2);
             }
             return 0;
         }
