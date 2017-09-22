@@ -43,7 +43,7 @@ namespace Circles
 
             foxDraw.DrawEllipse(x, y, rad, rad);
             
-            if (rad >= 10)
+            if (rad > 10)
             {
                 DrawTheCicle(canvas.Width/4, 0, rad/2);
                 DrawTheCicle(canvas.Width/25, canvas.Height/2.6, rad/2);
