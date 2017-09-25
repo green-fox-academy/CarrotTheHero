@@ -16,15 +16,33 @@ namespace Domino
             var output = new List<Domino>();
             output.Add(dominoes[0]);
 
+            int k = 0;
+
             for (int i = 0; i < dominoes.Count; i++)
             {            
                                
-                if (output[0].GetValues()[1] == dominoes[i].GetValues()[0])
+                if (output[k].GetValues()[1] == dominoes[i].GetValues()[0])
                 {
                     output.Add(dominoes[i]);
+                    k++;
+                    i = 0;
                 }
 
-            }            
+                if (k ==5)
+                {
+                    break;
+                }
+            }
+
+            foreach (var item in output)
+            {
+                foreach (var item2 in item.GetValues())
+                {
+                    Console.Write(item2 + " ");
+                }
+                Console.WriteLine();
+            }
+
             Console.ReadLine();
         }
 
