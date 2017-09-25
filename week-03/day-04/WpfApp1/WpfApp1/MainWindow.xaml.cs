@@ -14,46 +14,27 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using GreenFox;
 
-namespace WpfApp1
+public class TowersOfHanoi
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public static void Main(String[] args)
     {
-        public MainWindow()
+        char startPeg = 'A'; // start tower in output
+        char endPeg = 'C'; // end tower in output
+        char tempPeg = 'B'; // temporary tower in output
+        int totalDisks = 3; // number of disks
+
+        solveTowers(totalDisks, startPeg, endPeg, tempPeg);
+    }
+
+    private static void solveTowers(int n, char startPeg, char endPeg, char tempPeg)
+    {
+        if (n > 0)
         {
-            InitializeComponent();
-            var foxDraw = new FoxDraw(canvas);
-            int whole = 300;
-            int firstside = 100;
-            int secside = 200;
-            int zero = 0;
-            DrawTheLines(firstside, secside, whole, zero);            
-        }
+            solveTowers(n - 1, startPeg, tempPeg, endPeg);
+            Console.WriteLine("Move disk from " + startPeg + ' ' + endPeg);
+            solveTowers(n - 1, tempPeg, endPeg, startPeg);
 
-        private void DrawTheLines(int firstside, int secside, int whole, int zero)
-        {
-            var foxDraw = new FoxDraw(canvas);
-
-            foxDraw.BackgroundColor(Colors.Yellow);
-            foxDraw.StrokeColor(Colors.Black);
-            foxDraw.FillColor(Colors.Yellow);
-
-
-            for (int i = 0; i < 10; i++)
-            {
-                whole = (300 / 3);
-                secside = (200 / 3);
-                firstside = (100 / 3);
-                zero = (0 / 3);
-
-                foxDraw.DrawLine(firstside, zero, firstside, whole);
-                foxDraw.DrawLine(secside, zero, secside, whole);
-                foxDraw.DrawLine(zero, firstside, whole, firstside);
-                foxDraw.DrawLine(zero, secside, whole, secside);
-            }
-            
         }
     }
+
 }
