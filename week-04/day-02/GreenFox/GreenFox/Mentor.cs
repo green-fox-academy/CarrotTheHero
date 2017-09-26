@@ -32,7 +32,7 @@ namespace GreenFox
             Console.WriteLine("Educate brilliant junior software developers.");
         }
 
-        public new void Intrpduce()
+        public new void Introduce()
         {
             Console.WriteLine("Hi, I'm " + name + ", a " + age + " year old " + gender + level + " mentor.");
         }
