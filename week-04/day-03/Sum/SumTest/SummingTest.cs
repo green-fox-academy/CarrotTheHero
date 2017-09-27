@@ -21,5 +21,32 @@ namespace SumTest
 
             Assert.AreEqual(output, sumtard.Sum(sumList));
         }
+
+        [Test]
+        public void PrintSumTest2()
+        {
+            List<int> sumList = new List<int> { };
+            int output = 0;
+
+            Assert.AreEqual(output, sumtard.Sum(sumList));
+        }
+
+        [Test]
+        public void PrintSumTest3()
+        {
+            List<int> sumList = new List<int> {12};
+            int output = 12;
+
+            Assert.AreEqual(output, sumtard.Sum(sumList));
+        }
+
+        [Test]
+        public void PrintSumTest4()
+        {
+            List<int> sumList = new List<int>();
+            int output = 0;
+
+            Assert.AreEqual(output, sumtard.Sum(null));
+        }
     }
 }

@@ -12,6 +12,11 @@ namespace Sum
         {
             int sum = 0;
 
+            if (SumList == null)
+            {
+                return 0;
+            }
+
             foreach (int number in SumList)
             {
                 sum += number;
