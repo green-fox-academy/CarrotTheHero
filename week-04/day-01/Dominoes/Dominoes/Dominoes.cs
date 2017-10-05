@@ -19,19 +19,15 @@ namespace Domino
             int k = 0;
 
             for (int i = 0; i < dominoes.Count; i++)
-            {            
-                               
+            {                
                 if (output[k].GetValues()[1] == dominoes[i].GetValues()[0])
                 {
                     output.Add(dominoes[i]);
                     k++;
                     i = 0;
                 }
-
-                if (k ==5)
-                {
-                    break;
-                }
+                if (k == dominoes.Count -1)
+                { break; }
             }
 
             foreach (var item in output)
