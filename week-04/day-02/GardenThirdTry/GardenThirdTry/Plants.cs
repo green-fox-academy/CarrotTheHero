@@ -35,7 +35,7 @@ namespace GardenThirdTry
             string status = "doesn't need water";
             if (WaterIsNeeded())
             {
-                status = "has enough water";
+                status = "needs more water";
             }
             Console.WriteLine("The {0} {1} {2}", Name, PlantType, status);
         }

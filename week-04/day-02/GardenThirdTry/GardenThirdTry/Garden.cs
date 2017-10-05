@@ -15,7 +15,7 @@ namespace GardenThirdTry
             plants = new List<Plants>();
             plants.Add(new Flowers("yellow"));
             plants.Add(new Flowers("blue"));
-            plants.Add(new Trees("puple"));
+            plants.Add(new Trees("purple"));
             plants.Add(new Trees("orange"));
             PrintStatus();
         }
@@ -36,7 +36,6 @@ namespace GardenThirdTry
 
             foreach (Plants plant in plants)
             {
-
                 if (plant.WaterIsNeeded())
                 {
                     count++;
