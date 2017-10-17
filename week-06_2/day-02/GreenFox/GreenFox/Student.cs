@@ -44,6 +44,7 @@ namespace GreenFox
         public object Clone()
         {
             return new Student();
+            //return this.MemberwiseClone();
         }
     }
 }
