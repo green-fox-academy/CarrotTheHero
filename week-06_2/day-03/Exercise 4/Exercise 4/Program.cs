@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_3
+namespace Exercise_4
 {
     class Program
     {
@@ -16,6 +16,7 @@ namespace Exercise_3
                     from number in n
                     where number * number > 20
                     select number;
+
             foreach (int square in scoreQuery)
             {
                 Console.WriteLine(square);
