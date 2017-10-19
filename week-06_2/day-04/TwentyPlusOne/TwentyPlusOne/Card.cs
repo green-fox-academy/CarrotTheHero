@@ -16,6 +16,10 @@ namespace TwentyPlusOne
             SuitOfCard = suit;
             RankOfCard = rank;
         }
+        public string GetCard()
+        {
+            return String.Format("{0} - {1}", SuitOfCard, RankOfCard);
+        }
     }
 }
 

@@ -10,16 +10,17 @@ namespace TwentyPlusOne
     {
         static void Main(string[] args)
         {
-            var thisDeck = new Deck(56);
+            var thisDeck = new Deck(56); 
 
             foreach (var card in thisDeck.cardPack)
             {
-                Console.WriteLine(card.SuitOfCard + " - " + card.RankOfCard);
+                Console.WriteLine(card.GetCard());
             }
             Console.WriteLine();
-            Console.WriteLine(thisDeck.PullRandom());
-            Console.WriteLine(thisDeck.PullFirst());
-            Console.WriteLine(thisDeck.PullLast());
+            Console.WriteLine("A Random Card: " + thisDeck.PullRandom().GetCard());
+            Console.WriteLine("The First Card: " + thisDeck.PullFirst().GetCard());
+            Console.WriteLine("The Last Card: " + thisDeck.PullLast().GetCard());
+
             Console.ReadLine();
         }
     }
