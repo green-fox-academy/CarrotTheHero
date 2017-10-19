@@ -10,7 +10,7 @@ namespace TwentyPlusOne
     {
         static void Main(string[] args)
         {
-            var thisDeck = new Deck(56); 
+            var thisDeck = new Deck(); 
 
             foreach (var card in thisDeck.cardPack)
             {

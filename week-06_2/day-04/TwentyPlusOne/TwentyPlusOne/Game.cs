@@ -8,16 +8,26 @@ namespace TwentyPlusOne
 {
     class Game
     {
+        Deck myDeck = new Deck();
+
         public Game()
         {
-            GenerateEnemyPoints();
+            Console.WriteLine("The opponents points are: " + GenerateEnemyPoints());
+            Console.WriteLine("");
+            PullTwoCards();
         }
 
-        private void GenerateEnemyPoints()
+        public int PullTwoCards()
+        {
+            return 0;
+        }
+
+        public int GenerateEnemyPoints()
         {
             Random random = new Random();
 
             int result = random.Next(15, 22);
+            return result;
         }
     }
 }

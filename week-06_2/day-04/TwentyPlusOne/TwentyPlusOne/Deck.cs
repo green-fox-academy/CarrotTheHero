@@ -10,12 +10,12 @@ namespace TwentyPlusOne
     {
         public List<Card> cardPack = new List<Card>();
 
-        public Deck(int numberOfCards)
+        public Deck()
         {
 
             for (int i = 0; i < typeof(Suit).GetEnumNames().Count(); i++)
             {
-                for (int j = 0; j < typeof(Rank).GetEnumNames().Count(); j++)
+                for (int j = 2; j < typeof(Rank).GetEnumNames().Count(); j++)
                 {
                     cardPack.Add(new Card((Suit)i, (Rank)j));
                 }

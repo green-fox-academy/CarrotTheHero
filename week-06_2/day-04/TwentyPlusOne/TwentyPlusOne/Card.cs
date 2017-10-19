@@ -37,7 +37,7 @@ public enum Suit
 }
 public enum Rank
 {
-    Two,
+    Two = 2,
     Three,
     Four,
     Five,
