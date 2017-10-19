@@ -8,15 +8,15 @@ namespace ParkingLotApp
 {
     public enum CarType
     {
-        Trabant,
-        Lada,
-        Skoda
+        Ferrari,
+        Porsche,
+        Pagani
     }
     public enum CarColor
     {
-        green,
-        blue,
-        red
+        black,
+        red,
+        yellow
     }
 
     public class Car

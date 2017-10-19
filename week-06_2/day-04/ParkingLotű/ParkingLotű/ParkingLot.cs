@@ -22,36 +22,36 @@ namespace ParkingLotApp
 
         public void GetNumberOfSameType()
         {
-            var ladaQuery = from lada in listOfCars
-                            where lada.Type == CarType.Lada
-                            select lada;
+            var porscheQuery = from porsche in listOfCars
+                            where porsche.Type == CarType.Porsche
+                            select porsche;
 
-            var trabantQuery = from trabant in listOfCars
-                               where trabant.Type == CarType.Trabant
-                               select trabant;
+            var paganiQuery = from pagani in listOfCars
+                               where pagani.Type == CarType.Pagani
+                               select pagani;
 
-            var skodaQuery = from skoda in listOfCars
-                             where skoda.Type == CarType.Skoda
-                             select skoda;
-            Console.WriteLine("Number of ladas: {0} \nNumber of trabants: {1} \nNumber of skodas: {2}",
-                ladaQuery.Count(), trabantQuery.Count(), skodaQuery.Count());
+            var ferrariQuery = from ferrari in listOfCars
+                             where ferrari.Type == CarType.Ferrari
+                             select ferrari;
+            Console.WriteLine("Number of Porsches: {0} \nNumber of Paganis: {1} \nNumber of Ferraris: {2}",
+                porscheQuery.Count(), paganiQuery.Count(), ferrariQuery.Count());
         }
 
         public void GetNumberOfSameColor()
         {
             var greenQuery = from color in listOfCars
-                             where color.Color == CarColor.green
+                             where color.Color == CarColor.black
                              select color;
 
             var blueQuery = from color in listOfCars
-                            where color.Color == CarColor.blue
+                            where color.Color == CarColor.yellow
                             select color;
 
             var redQuery = from color in listOfCars
                            where color.Color == CarColor.red
                            select color;
 
-            Console.WriteLine("Number of green cars: {0} \nNumber of blue cars: {1} \nNumber of red cars: {2}",
+            Console.WriteLine("Number of Black cars: {0} \nNumber of Yellow cars: {1} \nNumber of Red cars: {2}",
                 greenQuery.Count(), blueQuery.Count(), redQuery.Count());
         }
         public void GetMostFrequentCar()
