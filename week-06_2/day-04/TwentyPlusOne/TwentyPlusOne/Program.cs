@@ -16,6 +16,10 @@ namespace TwentyPlusOne
             {
                 Console.WriteLine(card.SuitOfCard + " - " + card.RankOfCard);
             }
+            Console.WriteLine();
+            Console.WriteLine(thisDeck.PullRandom());
+            Console.WriteLine(thisDeck.PullFirst());
+            Console.WriteLine(thisDeck.PullLast());
             Console.ReadLine();
         }
     }
