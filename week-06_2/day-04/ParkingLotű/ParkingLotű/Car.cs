@@ -28,8 +28,8 @@ namespace ParkingLotApp
 
         public Car(CarType type, CarColor color)
         {
-            this.Type = type;
-            this.Color = color;
+            Type = type;
+            Color = color;
         }
     }
 }
