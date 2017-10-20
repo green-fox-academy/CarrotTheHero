@@ -8,6 +8,8 @@ namespace TwentyPlusOne
 {
     public class Card
     {
+        Game myGame = new Game();
+
         public Suit SuitOfCard { get; set; }
         public Rank RankOfCard { get; set; }
 
@@ -24,7 +26,7 @@ namespace TwentyPlusOne
         public int GetCardTheTrueValue()
         {
             int myScore = 0;
-            if ((int)RankOfCard < 10)
+            if ((int)RankOfCard < 11)
             {
                 myScore += (int)RankOfCard;
             }
@@ -32,7 +34,7 @@ namespace TwentyPlusOne
             {
                 myScore += 10;
             }
-            else if ((int)RankOfCard == 14 && myScore < 11)
+            else if ((int)RankOfCard == 14 && myGame.playerHand < 11)
             {
                 myScore += 11;
             }

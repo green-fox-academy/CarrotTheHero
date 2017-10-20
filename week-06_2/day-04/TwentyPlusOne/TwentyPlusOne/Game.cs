@@ -12,6 +12,7 @@ namespace TwentyPlusOne
 
         Deck myDeck = new Deck();
         Card myCard = new Card((Suit)random.Next(0,4),(Rank)random.Next(0,13));
+        public int playerHand = 0;
 
         public Game()
         {
@@ -22,7 +23,8 @@ namespace TwentyPlusOne
             int thefirsttwopulls = 0;
             thefirsttwopulls = myDeck.PullRandom().GetCardTheTrueValue();
             thefirsttwopulls += myDeck.PullRandom().GetCardTheTrueValue();
-            return thefirsttwopulls;
+            playerHand += thefirsttwopulls;
+            return playerHand;
         }
 
         public int GenerateOpponentsPoint()
