@@ -10,6 +10,7 @@ namespace TwentyPlusOne
     {
         static void Main(string[] args)
         {
+            var myGame = new Game();
             var thisDeck = new Deck(); 
 
             foreach (var card in thisDeck.cardPack)
@@ -20,6 +21,9 @@ namespace TwentyPlusOne
             Console.WriteLine("A Random Card: " + thisDeck.PullRandom().GetCard());
             Console.WriteLine("The First Card: " + thisDeck.PullFirst().GetCard());
             Console.WriteLine("The Last Card: " + thisDeck.PullLast().GetCard());
+            Console.WriteLine();
+            Console.WriteLine("The opponents points are: " + myGame.GenerateOpponentsPoint());
+            Console.WriteLine("Your hand after the first pull: " + myGame.PullTwoCards());
 
             Console.ReadLine();
         }

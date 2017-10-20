@@ -21,7 +21,6 @@ namespace CountLetters
                 }
                 else
                 {
-
                     dictionary[letter]++;
                 }
             }

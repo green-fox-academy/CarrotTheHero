@@ -20,6 +20,29 @@ namespace TwentyPlusOne
         {
             return String.Format("{0} - {1}", SuitOfCard, RankOfCard);
         }
+
+        public int GetCardTheTrueValue()
+        {
+            int myScore = 0;
+            if ((int)RankOfCard < 10)
+            {
+                myScore += (int)RankOfCard;
+            }
+            else if ((int)RankOfCard > 10 && (int)RankOfCard < 14)
+            {
+                myScore += 10;
+            }
+            else if ((int)RankOfCard == 14 && myScore < 11)
+            {
+                myScore += 11;
+            }
+            else
+            {
+                myScore += 1;
+            }
+            return myScore;
+        }
+
     }
 }
 
