@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\CandyShop2.0\CandyShop2.0\bin\Debug\CandyShop2.0.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\CandyShop2.0\CandyShop2.0\bin\Debug\CandyShop2.0.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\CandyShop2.0\CandyShop2.0\bin\Debug\CandyShop2.0.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\CandyShop2.0\CandyShop2.0\obj\Debug\CandyShop2.0.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\CandyShop2.0\CandyShop2.0\obj\Debug\CandyShop2.0.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\CandyShop2.0\CandyShop2.0\obj\Debug\CandyShop2.0.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\CandyShop2.0\CandyShop2.0\obj\Debug\CandyShop2.0.pdb

@@ -1,0 +1,6 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\TwentyPlusOne\TwentyPlusOne\bin\Release\TwentyPlusOne.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\TwentyPlusOne\TwentyPlusOne\bin\Release\TwentyPlusOne.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\TwentyPlusOne\TwentyPlusOne\bin\Release\TwentyPlusOne.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\TwentyPlusOne\TwentyPlusOne\obj\Release\TwentyPlusOne.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\TwentyPlusOne\TwentyPlusOne\obj\Release\TwentyPlusOne.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\TwentyPlusOne\TwentyPlusOne\obj\Release\TwentyPlusOne.pdb

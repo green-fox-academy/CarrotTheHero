@@ -1,0 +1,6 @@
+C:\Users\balib\source\repos\FifithTask\FifithTask\bin\Debug\FifithTask.exe.config
+C:\Users\balib\source\repos\FifithTask\FifithTask\bin\Debug\FifithTask.exe
+C:\Users\balib\source\repos\FifithTask\FifithTask\bin\Debug\FifithTask.pdb
+C:\Users\balib\source\repos\FifithTask\FifithTask\obj\Debug\FifithTask.csproj.CoreCompileInputs.cache
+C:\Users\balib\source\repos\FifithTask\FifithTask\obj\Debug\FifithTask.exe
+C:\Users\balib\source\repos\FifithTask\FifithTask\obj\Debug\FifithTask.pdb

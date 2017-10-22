@@ -1,0 +1,6 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\UniqueChars\UniqueChars\bin\Debug\UniqueChars.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\UniqueChars\UniqueChars\bin\Debug\UniqueChars.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\UniqueChars\UniqueChars\obj\Debug\UniqueChars.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\UniqueChars\UniqueChars\obj\Debug\UniqueChars.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\UniqueChars\UniqueChars\obj\Debug\UniqueChars.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\UniqueChars\UniqueChars\obj\Debug\UniqueChars.pdb

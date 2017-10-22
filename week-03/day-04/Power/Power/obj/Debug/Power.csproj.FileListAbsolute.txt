@@ -1,0 +1,6 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Power\Power\bin\Debug\Power.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Power\Power\bin\Debug\Power.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Power\Power\bin\Debug\Power.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Power\Power\obj\Debug\Power.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Power\Power\obj\Debug\Power.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Power\Power\obj\Debug\Power.pdb

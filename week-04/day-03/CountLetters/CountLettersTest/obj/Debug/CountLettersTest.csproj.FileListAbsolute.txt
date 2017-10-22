@@ -1,0 +1,10 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\bin\Debug\CountLettersTest.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\bin\Debug\CountLettersTest.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\bin\Debug\CountLetters.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\bin\Debug\nunit.framework.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\bin\Debug\CountLetters.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\bin\Debug\nunit.framework.xml
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\obj\Debug\CountLettersTest.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\obj\Debug\CountLettersTest.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\obj\Debug\CountLettersTest.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\CountLetters\CountLettersTest\obj\Debug\CountLettersTest.pdb

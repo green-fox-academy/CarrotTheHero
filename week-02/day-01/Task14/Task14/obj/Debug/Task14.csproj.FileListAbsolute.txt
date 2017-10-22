@@ -1,0 +1,6 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\Task14\Task14\bin\Debug\Task14.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\Task14\Task14\bin\Debug\Task14.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\Task14\Task14\bin\Debug\Task14.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\Task14\Task14\obj\Debug\Task14.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\Task14\Task14\obj\Debug\Task14.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\Task14\Task14\obj\Debug\Task14.pdb

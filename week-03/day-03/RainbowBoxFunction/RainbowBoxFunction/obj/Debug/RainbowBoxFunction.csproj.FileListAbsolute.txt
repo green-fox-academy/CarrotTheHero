@@ -1,0 +1,15 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\MainWindow.g.cs
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\App.g.cs
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction_MarkupCompile.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction_MarkupCompile.lref
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\bin\Debug\RainbowBoxFunction.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\bin\Debug\RainbowBoxFunction.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\bin\Debug\RainbowBoxFunction.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\MainWindow.baml
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction.g.resources
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction.Properties.Resources.resources
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction.csproj.GenerateResource.Cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\RainbowBoxFunction\RainbowBoxFunction\obj\Debug\RainbowBoxFunction.pdb

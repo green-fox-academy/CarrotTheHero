@@ -1,0 +1,8 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Fibonacci\Fibonacci\bin\Debug\Fibonacci.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Fibonacci\Fibonacci\bin\Debug\Fibonacci.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Fibonacci\Fibonacci\bin\Debug\nunit.framework.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Fibonacci\Fibonacci\bin\Debug\nunit.framework.xml
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Fibonacci\Fibonacci\obj\Debug\Fibonacci.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Fibonacci\Fibonacci\obj\Debug\Fibonacci.pdb

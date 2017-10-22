@@ -1,0 +1,6 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\EleventhTask\EleventhTask\obj\Debug\EleventhTask.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\EleventhTask\EleventhTask\bin\Debug\EleventhTask.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\EleventhTask\EleventhTask\bin\Debug\EleventhTask.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\EleventhTask\EleventhTask\bin\Debug\EleventhTask.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\EleventhTask\EleventhTask\obj\Debug\EleventhTask.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\EleventhTask\EleventhTask\obj\Debug\EleventhTask.pdb

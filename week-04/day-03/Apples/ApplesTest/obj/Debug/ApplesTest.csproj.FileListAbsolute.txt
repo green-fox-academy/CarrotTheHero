@@ -1,0 +1,10 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\bin\Debug\ApplesTest.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\bin\Debug\ApplesTest.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\bin\Debug\Apples.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\bin\Debug\nunit.framework.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\bin\Debug\Apples.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\bin\Debug\nunit.framework.xml
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\obj\Debug\ApplesTest.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\obj\Debug\ApplesTest.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\obj\Debug\ApplesTest.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-03\Apples\ApplesTest\obj\Debug\ApplesTest.pdb

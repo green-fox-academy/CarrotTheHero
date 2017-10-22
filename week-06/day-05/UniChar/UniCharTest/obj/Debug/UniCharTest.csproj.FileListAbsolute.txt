@@ -1,0 +1,10 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\bin\Debug\UniCharTest.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\bin\Debug\UniCharTest.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\bin\Debug\nunit.framework.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\bin\Debug\UniChar.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\bin\Debug\UniChar.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\bin\Debug\nunit.framework.xml
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\obj\Debug\UniCharTest.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\obj\Debug\UniCharTest.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\obj\Debug\UniCharTest.dll
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-05\UniChar\UniCharTest\obj\Debug\UniCharTest.pdb

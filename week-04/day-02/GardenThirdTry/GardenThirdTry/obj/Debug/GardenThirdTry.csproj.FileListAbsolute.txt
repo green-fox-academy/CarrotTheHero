@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenThirdTry\GardenThirdTry\bin\Debug\GardenThirdTry.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenThirdTry\GardenThirdTry\bin\Debug\GardenThirdTry.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenThirdTry\GardenThirdTry\bin\Debug\GardenThirdTry.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenThirdTry\GardenThirdTry\obj\Debug\GardenThirdTry.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenThirdTry\GardenThirdTry\obj\Debug\GardenThirdTry.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenThirdTry\GardenThirdTry\obj\Debug\GardenThirdTry.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenThirdTry\GardenThirdTry\obj\Debug\GardenThirdTry.pdb

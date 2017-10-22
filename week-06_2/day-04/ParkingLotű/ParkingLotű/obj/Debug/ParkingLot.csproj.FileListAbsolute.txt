@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\ParkingLotű\ParkingLotű\bin\Debug\ParkingLotű.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\ParkingLotű\ParkingLotű\bin\Debug\ParkingLotű.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\ParkingLotű\ParkingLotű\bin\Debug\ParkingLotű.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\ParkingLotű\ParkingLotű\obj\Debug\ParkingLot.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\ParkingLotű\ParkingLotű\obj\Debug\ParkingLot.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\ParkingLotű\ParkingLotű\obj\Debug\ParkingLotű.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-04\ParkingLotű\ParkingLotű\obj\Debug\ParkingLotű.pdb

@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Bunnies\Bunnies\bin\Debug\Bunnies.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Bunnies\Bunnies\bin\Debug\Bunnies.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Bunnies\Bunnies\bin\Debug\Bunnies.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Bunnies\Bunnies\obj\Debug\Bunnies.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Bunnies\Bunnies\obj\Debug\Bunnies.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Bunnies\Bunnies\obj\Debug\Bunnies.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Bunnies\Bunnies\obj\Debug\Bunnies.pdb

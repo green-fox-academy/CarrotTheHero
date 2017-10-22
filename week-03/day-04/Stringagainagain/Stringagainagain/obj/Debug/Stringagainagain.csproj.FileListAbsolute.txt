@@ -1,0 +1,6 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Stringagainagain\Stringagainagain\bin\Debug\Stringagainagain.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Stringagainagain\Stringagainagain\bin\Debug\Stringagainagain.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Stringagainagain\Stringagainagain\bin\Debug\Stringagainagain.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Stringagainagain\Stringagainagain\obj\Debug\Stringagainagain.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Stringagainagain\Stringagainagain\obj\Debug\Stringagainagain.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-04\Stringagainagain\Stringagainagain\obj\Debug\Stringagainagain.pdb

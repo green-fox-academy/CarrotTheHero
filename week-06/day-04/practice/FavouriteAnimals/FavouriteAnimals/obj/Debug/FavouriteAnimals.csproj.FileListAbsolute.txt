@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\FavouriteAnimals\FavouriteAnimals\bin\Debug\FavouriteAnimals.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\FavouriteAnimals\FavouriteAnimals\bin\Debug\FavouriteAnimals.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\FavouriteAnimals\FavouriteAnimals\bin\Debug\FavouriteAnimals.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\FavouriteAnimals\FavouriteAnimals\obj\Debug\FavouriteAnimals.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\FavouriteAnimals\FavouriteAnimals\obj\Debug\FavouriteAnimals.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\FavouriteAnimals\FavouriteAnimals\obj\Debug\FavouriteAnimals.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06\day-04\practice\FavouriteAnimals\FavouriteAnimals\obj\Debug\FavouriteAnimals.pdb

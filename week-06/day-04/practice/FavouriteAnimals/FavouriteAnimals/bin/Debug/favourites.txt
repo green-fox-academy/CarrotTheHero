@@ -1,0 +1,8 @@
+dog
+lizzard
+cat
+shark
+eagle
+bird
+snake
+cow

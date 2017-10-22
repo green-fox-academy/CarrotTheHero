@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenAppSecTry\GardenAppSecTry\bin\Debug\GardenAppSecTry.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenAppSecTry\GardenAppSecTry\bin\Debug\GardenAppSecTry.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenAppSecTry\GardenAppSecTry\bin\Debug\GardenAppSecTry.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenAppSecTry\GardenAppSecTry\obj\Debug\GardenAppSecTry.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenAppSecTry\GardenAppSecTry\obj\Debug\GardenAppSecTry.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenAppSecTry\GardenAppSecTry\obj\Debug\GardenAppSecTry.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-02\GardenAppSecTry\GardenAppSecTry\obj\Debug\GardenAppSecTry.pdb

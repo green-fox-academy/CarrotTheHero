@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\FirstTask1\FirstTask1\bin\Debug\FirstTask1.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\FirstTask1\FirstTask1\bin\Debug\FirstTask1.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\FirstTask1\FirstTask1\bin\Debug\FirstTask1.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\FirstTask1\FirstTask1\obj\Debug\FirstTask1.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\FirstTask1\FirstTask1\obj\Debug\FirstTask1.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\FirstTask1\FirstTask1\obj\Debug\FirstTask1.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\FirstTask1\FirstTask1\obj\Debug\FirstTask1.pdb

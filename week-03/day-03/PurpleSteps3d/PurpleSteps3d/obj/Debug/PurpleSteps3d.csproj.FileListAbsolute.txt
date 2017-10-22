@@ -1,0 +1,14 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\bin\Debug\PurpleSteps3d.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\bin\Debug\PurpleSteps3d.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\bin\Debug\PurpleSteps3d.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\MainWindow.g.cs
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\App.g.cs
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\PurpleSteps3d_MarkupCompile.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\PurpleSteps3d_MarkupCompile.lref
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\MainWindow.baml
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\PurpleSteps3d.g.resources
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\PurpleSteps3d.Properties.Resources.resources
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\PurpleSteps3d.csproj.GenerateResource.Cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\PurpleSteps3d.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\PurpleSteps3d.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\PurpleSteps3d\PurpleSteps3d\obj\Debug\PurpleSteps3d.pdb

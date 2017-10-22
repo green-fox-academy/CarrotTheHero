@@ -1,0 +1,14 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\bin\Debug\Horizontal.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\bin\Debug\Horizontal.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\bin\Debug\Horizontal.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\MainWindow.g.cs
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\App.g.cs
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\Horizontal_MarkupCompile.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\Horizontal_MarkupCompile.lref
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\MainWindow.baml
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\Horizontal.g.resources
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\Horizontal.Properties.Resources.resources
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\Horizontal.csproj.GenerateResource.Cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\Horizontal.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\Horizontal.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-03\day-03\Horizontal\Horizontal\obj\Debug\Horizontal.pdb

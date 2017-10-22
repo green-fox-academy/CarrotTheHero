@@ -1,0 +1,6 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\ThirdTask\ThirdTask\bin\Debug\ThirdTask.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\ThirdTask\ThirdTask\bin\Debug\ThirdTask.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\ThirdTask\ThirdTask\bin\Debug\ThirdTask.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\ThirdTask\ThirdTask\obj\Debug\ThirdTask.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\ThirdTask\ThirdTask\obj\Debug\ThirdTask.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\ThirdTask\ThirdTask\obj\Debug\ThirdTask.pdb

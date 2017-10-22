@@ -1,0 +1,14 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\Dominoes\Dominoes\bin\Debug\Dominoes.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\Dominoes\Dominoes\bin\Debug\Dominoes.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\Dominoes\Dominoes\bin\Debug\Dominoes.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\Dominoes\Dominoes\obj\Debug\Dominoes.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\Dominoes\Dominoes\obj\Debug\Dominoes.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\Dominoes\Dominoes\obj\Debug\Dominoes.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\Dominoes\Dominoes\obj\Debug\Dominoes.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-02\Dominoes\Dominoes\bin\Debug\Dominoes.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-02\Dominoes\Dominoes\bin\Debug\Dominoes.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-02\Dominoes\Dominoes\bin\Debug\Dominoes.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-02\Dominoes\Dominoes\obj\Debug\Dominoes.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-02\Dominoes\Dominoes\obj\Debug\Dominoes.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-02\Dominoes\Dominoes\obj\Debug\Dominoes.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-06_2\day-02\Dominoes\Dominoes\obj\Debug\Dominoes.pdb

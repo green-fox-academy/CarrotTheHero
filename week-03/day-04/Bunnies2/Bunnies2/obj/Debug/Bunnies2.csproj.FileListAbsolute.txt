@@ -1,0 +1,6 @@
+c:\users\balib\source\repos\Bunnies2\Bunnies2\obj\Debug\Bunnies2.csproj.CoreCompileInputs.cache
+c:\users\balib\source\repos\Bunnies2\Bunnies2\bin\Debug\Bunnies2.exe.config
+c:\users\balib\source\repos\Bunnies2\Bunnies2\bin\Debug\Bunnies2.exe
+c:\users\balib\source\repos\Bunnies2\Bunnies2\bin\Debug\Bunnies2.pdb
+c:\users\balib\source\repos\Bunnies2\Bunnies2\obj\Debug\Bunnies2.exe
+c:\users\balib\source\repos\Bunnies2\Bunnies2\obj\Debug\Bunnies2.pdb

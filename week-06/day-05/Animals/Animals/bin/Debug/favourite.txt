@@ -1,0 +1,6 @@
+dog
+cat
+fish
+eagle
+lizzard
+gekko

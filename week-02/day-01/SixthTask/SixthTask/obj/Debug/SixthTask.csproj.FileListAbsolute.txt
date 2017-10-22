@@ -1,0 +1,6 @@
+C:\Users\balib\source\repos\SixthTask\SixthTask\obj\Debug\SixthTask.csproj.CoreCompileInputs.cache
+C:\Users\balib\source\repos\SixthTask\SixthTask\bin\Debug\SixthTask.exe.config
+C:\Users\balib\source\repos\SixthTask\SixthTask\bin\Debug\SixthTask.exe
+C:\Users\balib\source\repos\SixthTask\SixthTask\bin\Debug\SixthTask.pdb
+C:\Users\balib\source\repos\SixthTask\SixthTask\obj\Debug\SixthTask.exe
+C:\Users\balib\source\repos\SixthTask\SixthTask\obj\Debug\SixthTask.pdb

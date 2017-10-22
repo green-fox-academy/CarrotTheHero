@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\AnimalApp\AnimalApp\bin\Debug\AnimalApp.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\AnimalApp\AnimalApp\bin\Debug\AnimalApp.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\AnimalApp\AnimalApp\bin\Debug\AnimalApp.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\AnimalApp\AnimalApp\obj\Debug\AnimalApp.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\AnimalApp\AnimalApp\obj\Debug\AnimalApp.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\AnimalApp\AnimalApp\obj\Debug\AnimalApp.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-04\day-01\AnimalApp\AnimalApp\obj\Debug\AnimalApp.pdb

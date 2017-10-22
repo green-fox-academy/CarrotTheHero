@@ -1,0 +1,7 @@
+C:\Users\balib\source\repos\FourthTask\FourthTask\bin\Debug\FourthTask.exe.config
+C:\Users\balib\source\repos\FourthTask\FourthTask\bin\Debug\FourthTask.exe
+C:\Users\balib\source\repos\FourthTask\FourthTask\bin\Debug\FourthTask.pdb
+C:\Users\balib\source\repos\FourthTask\FourthTask\obj\Debug\FourthTask.csprojResolveAssemblyReference.cache
+C:\Users\balib\source\repos\FourthTask\FourthTask\obj\Debug\FourthTask.csproj.CoreCompileInputs.cache
+C:\Users\balib\source\repos\FourthTask\FourthTask\obj\Debug\FourthTask.exe
+C:\Users\balib\source\repos\FourthTask\FourthTask\obj\Debug\FourthTask.pdb

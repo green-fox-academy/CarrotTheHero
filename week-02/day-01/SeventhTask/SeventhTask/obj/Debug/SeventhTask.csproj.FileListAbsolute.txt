@@ -1,0 +1,7 @@
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\SeventhTask\SeventhTask\bin\Debug\SeventhTask.exe.config
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\SeventhTask\SeventhTask\bin\Debug\SeventhTask.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\SeventhTask\SeventhTask\bin\Debug\SeventhTask.pdb
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\SeventhTask\SeventhTask\obj\Debug\SeventhTask.csprojResolveAssemblyReference.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\SeventhTask\SeventhTask\obj\Debug\SeventhTask.csproj.CoreCompileInputs.cache
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\SeventhTask\SeventhTask\obj\Debug\SeventhTask.exe
+D:\Documents\Green Fox Academy\stock_folder\stock_folder\greenfox\CarrotTheHero\week-02\day-01\SeventhTask\SeventhTask\obj\Debug\SeventhTask.pdb
