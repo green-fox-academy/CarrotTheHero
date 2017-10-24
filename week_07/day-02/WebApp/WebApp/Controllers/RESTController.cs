@@ -12,15 +12,17 @@ namespace WebApp.Controllers
     [Route("api")]
     public class RESTController : Controller
     {
-        // GET: /<controller>/
+        public static int counter = 0;
+
+        [Route("greeting/{name}")]
+        public IActionResult Greeting(string name)
+        {
+            counter++;
+            return new JsonResult(new Greeting(counter, "Hello " + name));
+        }
         public IActionResult Index()
         {
             return View();
-        }
-        [Route("greeting")]
-        public IActionResult Greeting(string name)
-        {
-            return new JsonResult(new Greeting (1, "Hello Balazs"));
         }
     }
 }
