@@ -10,6 +10,10 @@ namespace WebApp.Models
         public long Id;
         public string Content;
 
+        public Greeting()
+        {
+        }
+
         public Greeting(long id, string content)
         {
             Id = id;
