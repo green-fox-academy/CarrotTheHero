@@ -1,4 +1,4 @@
-﻿@model List<BankOfSimba.Models.BankAccount>
+﻿@model BankOfSimba.Models.BankAccount
 
 <html xmlns:th=“http://www.thymeleaf.org“>
 <head>
@@ -7,11 +7,18 @@
 </head>
 <body>
     @{int counter = 1;}
-    @foreach (var account in Model)
+    @foreach (var account in Model.ListOfNamesThaIDontKnow)
     {
-        <p>
-            @counter - @account.Name, @account.Balance.ToString("#0.00" + " Zebra"), @account.AnimalType
-        </p>
+        @if (account.IsKing == true)
+        {
+            <p style="background-color:gold">@counter - @account.Name, @account.Balance.ToString("#0.00" + " Zebra"), @account.AnimalType, @account.IsKing</p>
+        }
+        else
+        {
+            <p>
+                @counter - @account.Name, @account.Balance.ToString("#0.00" + " Zebra"), @account.AnimalType, @account.IsKing
+            </p>
+        }
         counter++;
     }
 </body>
