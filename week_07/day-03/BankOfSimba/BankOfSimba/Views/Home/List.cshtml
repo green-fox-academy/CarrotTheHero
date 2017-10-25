@@ -7,10 +7,17 @@
 </head>
 <body style="font-family:'Trebuchet MS'">
     @{int counter = 1;}
-    <table border="1" height="250" width="350">
+    <table border="1" height="250" width="500" style="text-align:center">
+        <tr style="background-color:green">
+            <td>Counter</td>
+            <td>Name</td>
+            <td>Balance (Zebra)</td>
+            <td>Animal Type</td>
+            <td>Good or Bad</td>
+        </tr>
         @foreach (var account in Model.ListOfNamesThaIDontKnow)
         {
-            <tr style="@((account.IsKing) ? "background-color:gold" : "backgound-color: grey")">
+            <tr style="@((account.IsKing) ? "background-color:gold" : "background-color:grey")">
                 <td>@counter</td>
                 <td>@account.Name</td>
                 <td>@account.Balance.ToString("#0.00 Zebra")</td>
@@ -21,4 +28,4 @@
         }
     </table>
 </body>
-</html>
+</html>s
