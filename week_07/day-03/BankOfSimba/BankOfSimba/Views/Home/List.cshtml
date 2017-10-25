@@ -14,6 +14,7 @@
             <td>Balance (Zebra)</td>
             <td>Animal Type</td>
             <td>Good or Bad</td>
+            <td>Press Button For Zebra</td>
         </tr>
         @foreach (var account in Model.ListOfNamesThaIDontKnow)
         {
@@ -23,9 +24,10 @@
                 <td>@account.Balance.ToString("#0.00 Zebra")</td>
                 <td>@account.AnimalType</td>
                 <td>@((account.IsGood) ? "Good One" : "Bad Guy")</td>
+                <td><button>Increase Zebra</button></td>
             </tr>
             counter++;
         }
     </table>
 </body>
-</html>s
+</html>
