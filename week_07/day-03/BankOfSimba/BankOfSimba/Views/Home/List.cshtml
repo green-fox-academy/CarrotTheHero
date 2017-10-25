@@ -6,11 +6,13 @@
     <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8" />
 </head>
 <body>
+    @{int counter = 1;}
     @foreach (var account in Model)
     {
         <p>
-            @account.Name @account.Balance @account.AnimalType
+            @counter - @account.Name, @account.Balance.ToString("#0.00" + " Zebra"), @account.AnimalType
         </p>
+        counter++;
     }
 </body>
 </html>

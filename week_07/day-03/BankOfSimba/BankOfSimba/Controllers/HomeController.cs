@@ -11,6 +11,8 @@ namespace BankOfSimba.Controllers
 {
     public class HomeController : Controller
     {
+        public static int counter = 0;
+
         // GET: /<controller>/
         [Route("Simba")]
         public IActionResult Index()
