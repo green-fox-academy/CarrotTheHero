@@ -7,19 +7,29 @@
 </head>
 <body>
     @{int counter = 1;}
-    @foreach (var account in Model.ListOfNamesThaIDontKnow)
-    {
-        @if (account.IsKing == true)
+    <table border="1" height="200" width="300">
+        @foreach (var account in Model.ListOfNamesThaIDontKnow)
         {
-            <p style="background-color:gold">@counter - @account.Name, @account.Balance.ToString("#0.00" + " Zebra"), @account.AnimalType, @account.IsKing</p>
+            @if (account.IsKing)
+                {
+                <tr style="background-color:gold">
+                    <td>@counter</td>
+                    <td>@account.Name</td>
+                    <td>@account.Balance.ToString("#0.00 Zebra")</td>
+                    <td>@account.AnimalType</td>
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td>@counter</td>
+                    <td>@account.Name</td>
+                    <td>@account.Balance.ToString("#0.00 Zebra")</td>
+                    <td>@account.AnimalType</td>
+                </tr>
+            }
+            counter++;
         }
-        else
-        {
-            <p>
-                @counter - @account.Name, @account.Balance.ToString("#0.00" + " Zebra"), @account.AnimalType, @account.IsKing
-            </p>
-        }
-        counter++;
-    }
+    </table>
 </body>
 </html>
