@@ -17,7 +17,7 @@ namespace BankOfSimba.Controllers
         [Route("Simba")]
         public IActionResult Index()
         {
-            BankAccount bankAccount = new BankAccount("Simba", 2000, Animal.Lion, true);
+            BankAccount bankAccount = new BankAccount("Simba", 2000, Animal.Lion, true, true);
             return View(bankAccount);
         }
 
@@ -26,11 +26,11 @@ namespace BankOfSimba.Controllers
         {
             var bankAccount = new BankAccount();
 
-            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Simba", 2000, Animal.Lion, true));
-            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Mufasa", 20000, Animal.Hound, false));
-            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Timon", 12000, Animal.Monkey, true));
-            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Pumba", 5000, Animal.Lion, false));
-            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Nala", 8000, Animal.Giraffe, false));
+            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Simba", 2000, Animal.Lion, true, true));
+            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Mufasa", 20000, Animal.Hound, false, true));
+            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Timon", 12000, Animal.Monkey, true, false));
+            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Pumba", 5000, Animal.Lion, false, false));
+            bankAccount.ListOfNamesThaIDontKnow.Add(new BankAccount("Nala", 8000, Animal.Giraffe, false, true));
 
             return View(bankAccount);
         }

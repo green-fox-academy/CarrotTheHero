@@ -13,13 +13,15 @@ namespace BankOfSimba.Models
         public double Balance { get; set; }
         public Animal AnimalType { get; set; }
         public bool IsKing { get; set; }
+        public bool IsGood { get; set; }
 
-        public BankAccount (string name, double balance, Animal animaltype, bool isKing)
+        public BankAccount (string name, double balance, Animal animaltype, bool isKing, bool isGood)
         {
             Name = name;
             Balance = balance;
             IsKing = isKing;
             AnimalType = animaltype;
+            IsGood = isGood;
         }
 
         public BankAccount()

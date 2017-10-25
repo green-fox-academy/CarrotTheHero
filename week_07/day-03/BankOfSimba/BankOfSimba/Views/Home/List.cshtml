@@ -7,7 +7,7 @@
 </head>
 <body>
     @{int counter = 1;}
-    <table border="1" height="200" width="300">
+    <table border="1" height="250" width="350">
         @foreach (var account in Model.ListOfNamesThaIDontKnow)
         {
             <tr style="@((account.IsKing) ? "background-color:gold" : "backgound-color: grey")">
@@ -15,6 +15,7 @@
                 <td>@account.Name</td>
                 <td>@account.Balance.ToString("#0.00 Zebra")</td>
                 <td>@account.AnimalType</td>
+                <td>@((account.IsGood) ? "Good One" : "Bad Guy")</td>
             </tr>
             counter++;
         }
