@@ -1,38 +1,37 @@
 ﻿using GreetSomeoneApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace GreetSomeoneApp.Controllers
 {
     public class HomeController : Controller
     {
-        UserInfo userInfo;
+        private UserInfo UserInfo;
 
         public HomeController(UserInfo userInfo)
         {
-            this.userInfo = userInfo;
+            UserInfo = userInfo;
         }
 
         [HttpGet]
         [Route("")]
         public IActionResult Index()
         {
-            return View(userInfo);
+            return View(UserInfo);
         }
 
         [HttpPost]
         [Route("")]
-        public IActionResult Post(UserInfo userInfo)
+        public IActionResult Post(string inputInfo)
         {
-            return RedirectToAction("Greet", userInfo);
+            UserInfo.Name = inputInfo;
+            return RedirectToAction("Greet");
         }
 
         [HttpGet]
         [Route("greet")]
-        public IActionResult Greet(UserInfo userInfo)
+        public IActionResult Greet()
         {
-            return View(userInfo);
+            return View(UserInfo);
         }
     }
 }
