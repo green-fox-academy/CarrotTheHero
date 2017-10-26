@@ -1,0 +1,14 @@
+﻿@model CounterApp.Models.Counter
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body style="text-align:center">
+    <h1 style="font-size:x-large">@Model.Number</h1>
+    @using (Html.BeginForm("action", "home"))
+    {
+        <button style="height:600px;width:1000px;"><input type="submit" value="Bakkecske" /></button>
+    }
+</body>
+</html>
