@@ -15,5 +15,27 @@ namespace Todos.Repositories
         {
             TodoContext = todoContext;
         }
+
+        public void AddTodo()
+        {
+            var todo = new Todo()
+            {
+                Title = "Go Home",
+                IsDone = true,
+                IsUrgent = true
+            };
+
+            TodoContext.Todoes.Add(todo);
+            TodoContext.SaveChanges();
+        }
+        public Todo GetLast()
+        {
+            return TodoContext.Todoes.Last();
+        }
+
+        public List<Todo> GetAll()
+        {
+            return TodoContext.Todoes.ToList();
+        }
     }
 }

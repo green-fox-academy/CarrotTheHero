@@ -23,14 +23,21 @@ namespace Todos.Controllers
         [Route("/todo")]
         public IActionResult Index()
         {
-            return View();
+            return View(TodoRepository.GetAll());
         }
 
         [Route("/")]
         [Route("/list")]
         public IActionResult List()
         {
-            return View();
+            return View(TodoRepository.GetLast());
+        }
+
+        [Route("/add")]
+        public IActionResult Add()
+        {
+            TodoRepository.AddTodo();
+            return RedirectToAction("List");
         }
     }
 }

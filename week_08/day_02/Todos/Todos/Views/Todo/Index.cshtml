@@ -1,7 +1,15 @@
-﻿<html xmlns="http://www.w3.org/1999/xhtml">
+﻿@model List<Todos.Models.Todo>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
 </head>
 <body>
+    @foreach (var item in Model)
+    {
+        <p>Id: @item.Id</p>
+        <p>Title: @item.Title</p>
+        <p>IsDone: @item.IsDone</p>
+        <p>IsUrgent: @item.IsUrgent</p>
+    }
 </body>
 </html>
