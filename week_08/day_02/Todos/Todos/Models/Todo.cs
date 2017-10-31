@@ -7,9 +7,9 @@ namespace Todos.Models
 {
     public class Todo
     {
-        public int Id;
-        public string Title;
-        public bool IsUrgent;
-        public bool IsDone;
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public bool IsUrgent { get; set; }
+        public bool IsDone { get; set; }
     }
 }

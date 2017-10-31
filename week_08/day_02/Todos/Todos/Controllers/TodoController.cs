@@ -30,8 +30,7 @@ namespace Todos.Controllers
         [Route("/list")]
         public IActionResult List()
         {
-            string words = "This is my first todo";
-            return View((object)words);
+            return View();
         }
     }
 }
