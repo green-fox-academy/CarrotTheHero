@@ -22,14 +22,8 @@ namespace Todos
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json");
-
-            Configuration = builder.Build();
-
             services.AddMvc();
-            services.AddDbContext<TodoContext>(/*options => options.UseSqlServer(Configuration["ConnectionStrings:TodoConnection"])*/);
+            services.AddDbContext<TodoContext>(options => options.UseSqlServer("Data Source=(localdb)\\ProjectsV13;Initial Catalog=TodoApp;Integrated Security=True;Connect Timeout=30;"));
             services.AddScoped<TodoRepository>();
         }
 
