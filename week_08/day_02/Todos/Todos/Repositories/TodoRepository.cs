@@ -37,5 +37,12 @@ namespace Todos.Repositories
         {
             return TodoContext.Todoes.ToList();
         }
+
+        public void DeleteTodo(int id)
+        {
+            Todo deletedTodo = TodoContext.Todoes.FirstOrDefault(x => x.Id == id);
+            TodoContext.Todoes.Remove(deletedTodo);
+            TodoContext.SaveChanges();
+        }
     }
 }

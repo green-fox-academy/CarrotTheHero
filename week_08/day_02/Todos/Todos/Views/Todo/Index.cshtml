@@ -4,16 +4,29 @@
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Stylesheet.css")" />
 </head>
 <body>
-    @foreach (var item in Model)
-    {
-        <table>
+    <table>
+        <tr>
+            <td>Id:</td>
+            <td>Title:</td>
+            <td>IsDone:</td>
+            <td>IsUrgent:</td>
+            <td>Delete Action:</td>
+        </tr>
+        @foreach (var item in Model)
+        {
             <tr>
-                <td>Id: @item.Id</td>
-                <td>Title: @item.Title</td>
-                <td>IsDone: @item.IsDone</td>
-                <td>IsUrgent: @item.IsUrgent</td>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.IsDone</td>
+                <td>@item.IsUrgent</td>
+                <td>
+                    <form action="/(@item.Id)/delete" method="post">
+                        <input type="hidden" name="Id" value="@item.Id" />
+                        <button id="table" class="number" type="submit">Delete</button>
+                    </form>
+                </td>
             </tr>
-        </table>
-    }
+        }
+    </table>
 </body>
 </html>
