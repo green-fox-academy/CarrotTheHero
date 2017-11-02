@@ -11,7 +11,7 @@
 td {
     border: solid 1px darkgreen;
     padding: 10px;
-    width:150px;
+    width:200px;
     font-size:20px;
 }
 
@@ -22,10 +22,10 @@ table tr:first-child td {
 
 h1 {
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2{
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 30px;
 }
