@@ -20,24 +20,12 @@ namespace Todos.Controllers
             TodoRepository = todoRepository;
         }
 
-        [Route("/todo")]
+        [Route("/")]
+        [Route("/list")]
+        [HttpGet]
         public IActionResult Index()
         {
             return View(TodoRepository.GetAll());
-        }
-
-        [Route("/")]
-        [Route("/list")]
-        public IActionResult List()
-        {
-            return View(TodoRepository.GetLast());
-        }
-
-        [Route("/add")]
-        public IActionResult Add()
-        {
-            TodoRepository.AddTodo();
-            return RedirectToAction("List");
         }
 
         [Route("/{id}/delete")]
@@ -45,6 +33,21 @@ namespace Todos.Controllers
         public IActionResult Delete(int id)
         {
             TodoRepository.DeleteTodo(id);
+            return RedirectToAction("Index");
+        }
+
+        [Route("/add")]
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+        [Route("/add")]
+        [HttpPost]
+        public IActionResult Add(string title)
+        {
+            TodoRepository.AddTodo(title);
             return RedirectToAction("Index");
         }
     }

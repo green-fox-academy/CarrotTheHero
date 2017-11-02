@@ -28,10 +28,6 @@ namespace Todos.Repositories
             TodoContext.Todoes.Add(todo);
             TodoContext.SaveChanges();
         }
-        public Todo GetLast()
-        {
-            return TodoContext.Todoes.Last();
-        }
 
         public List<Todo> GetAll()
         {
@@ -42,6 +38,19 @@ namespace Todos.Repositories
         {
             Todo deletedTodo = TodoContext.Todoes.FirstOrDefault(x => x.Id == id);
             TodoContext.Todoes.Remove(deletedTodo);
+            TodoContext.SaveChanges();
+        }
+
+        public void AddTodo(string title)
+        {
+            var todo = new Todo()
+            {
+                Title = title,
+                IsDone = false,
+                IsUrgent = false
+            };
+
+            TodoContext.Todoes.Add(todo);
             TodoContext.SaveChanges();
         }
     }
