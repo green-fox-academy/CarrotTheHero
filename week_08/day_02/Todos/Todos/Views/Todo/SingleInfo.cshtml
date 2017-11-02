@@ -1,0 +1,19 @@
+﻿@model Todos.Models.Todo
+
+<input type="hidden" name="Id" value="@Model.Id" />
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Stylesheet.css")" />
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Id: @Model.Id</td>
+            <td>Title:@Model.Title</td>
+            <td>IsUrgent:@Model.IsUrgent</td>
+            <td>IsDone:@Model.IsDone</td>
+        </tr>
+    </table>
+    <h3><a href="/">Back To The List</a></h3>
+</body>
+</html>

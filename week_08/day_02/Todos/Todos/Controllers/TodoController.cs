@@ -67,5 +67,13 @@ namespace Todos.Controllers
             return RedirectToAction("Index");
         }
 
+        [Route("/{id}/singleinfo")]
+        [HttpGet]
+        public IActionResult SingleInfo(int id)
+        {
+            var todo = TodoRepository.Updating(id);
+            return View(todo);
+        }
+
     }
 }
