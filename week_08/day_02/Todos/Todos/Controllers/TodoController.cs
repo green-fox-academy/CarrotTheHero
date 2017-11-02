@@ -50,5 +50,22 @@ namespace Todos.Controllers
             TodoRepository.AddTodo(title);
             return RedirectToAction("Index");
         }
+
+        [Route("/{id}/update")]
+        [HttpPost]
+        public IActionResult Update(int id)
+        {
+            var todo = TodoRepository.Updating(id);
+            return View(todo);
+        }
+
+        [Route("/{id}/edit")]
+        [HttpPost]
+        public IActionResult Edit(Todo todo)
+        {
+            TodoRepository.UpdateTodo(todo);
+            return RedirectToAction("Index");
+        }
+
     }
 }

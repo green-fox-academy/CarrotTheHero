@@ -53,5 +53,17 @@ namespace Todos.Repositories
             TodoContext.Todoes.Add(todo);
             TodoContext.SaveChanges();
         }
+
+        public Todo Updating(int id)
+        {
+            return TodoContext.Todoes.FirstOrDefault(x => x.Id == id);
+        }
+
+        public void UpdateTodo(Todo todo)
+        {
+            TodoContext.Todoes.Update(todo);
+            TodoContext.SaveChanges();
+
+        }
     }
 }

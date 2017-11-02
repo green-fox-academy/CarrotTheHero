@@ -1,0 +1,18 @@
+﻿@model Todos.Models.Todo
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    @using (Html.BeginForm("edit", "todo"))
+    {
+        <input type="hidden" name="Id" value="@Model.Id" />
+        @Html.LabelFor(todo => todo.Title) @Html.TextBoxFor(todo => todo.Title) <br />
+        @Html.LabelFor(todo => todo.IsUrgent) @Html.CheckBoxFor(todo => todo.IsUrgent) <br />
+        @Html.LabelFor(todo => todo.IsDone) @Html.CheckBoxFor(todo => todo.IsDone) <br />
+        <button type="submit">Edit This Todo!</button>
+    }
+    <h2><a href="/">Cancel</a></h2>
+</body>
+</html>

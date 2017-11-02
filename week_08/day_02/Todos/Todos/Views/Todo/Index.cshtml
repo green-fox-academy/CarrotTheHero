@@ -10,21 +10,28 @@
         <tr>
             <td>Id:</td>
             <td>Title:</td>
-            <td>IsDone:</td>
             <td>IsUrgent:</td>
+            <td>IsDone:</td>
             <td>Delete Action:</td>
+            <td>Edit Action:</td>
         </tr>
         @foreach (var item in Model)
         {
             <tr>
                 <td>@item.Id</td>
                 <td>@item.Title</td>
-                <td>@item.IsDone</td>
                 <td>@item.IsUrgent</td>
+                <td>@item.IsDone</td>
                 <td>
                     <form action="/(@item.Id)/delete" method="post">
                         <input type="hidden" name="Id" value="@item.Id" />
                         <button id="table" class="number" type="submit">Delete</button>
+                    </form>
+                </td>
+                <td>
+                    <form action="/(@item.Id)/update" method="post">
+                        <input type="hidden" name="Id" value="@item.Id" />
+                        <button id="table" class="number" type="submit">Edit</button>
                     </form>
                 </td>
             </tr>
