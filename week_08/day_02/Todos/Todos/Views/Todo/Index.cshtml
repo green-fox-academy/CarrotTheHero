@@ -1,15 +1,19 @@
 ﻿@model List<Todos.Models.Todo>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Stylesheet.css")" />
 </head>
 <body>
     @foreach (var item in Model)
     {
-        <p>Id: @item.Id</p>
-        <p>Title: @item.Title</p>
-        <p>IsDone: @item.IsDone</p>
-        <p>IsUrgent: @item.IsUrgent</p>
+        <table>
+            <tr>
+                <td>Id: @item.Id</td>
+                <td>Title: @item.Title</td>
+                <td>IsDone: @item.IsDone</td>
+                <td>IsUrgent: @item.IsUrgent</td>
+            </tr>
+        </table>
     }
 </body>
 </html>

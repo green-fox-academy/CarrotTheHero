@@ -1,0 +1,25 @@
+﻿table {
+    background-color: aquamarine;
+    width:1000px;
+    border-style: solid;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: left;
+    margin-bottom:10px;
+    color:darkred;
+}
+
+td {
+    border: solid 1px darkgreen;
+    padding: 10px;
+}
+
+table tr:first-child td {
+    font-size: x-large;
+    padding: 15px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}

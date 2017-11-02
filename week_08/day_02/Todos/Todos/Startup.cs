@@ -37,6 +37,7 @@ namespace Todos
                 app.UseDeveloperExceptionPage();
             }
             app.UseMvc();
+            app.UseStaticFiles();
 
             app.Run(async (context) =>
             {

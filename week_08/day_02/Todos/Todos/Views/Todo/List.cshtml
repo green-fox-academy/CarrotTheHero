@@ -2,15 +2,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Stylesheet.css")" />
 </head>
 <body>
     <h1>Todos for today:</h1>
-    <ul>
-        <p>Id: @Model.Id</p>
-        <p>Title: @Model.Title</p>
-        <p>IsDone: @Model.IsDone</p>
-        <p>IsUrgent: @Model.IsUrgent</p>
-    </ul>
+    <table>
+        <tr>
+            <td>Id: @Model.Id</td>
+            <td>Title: @Model.Title</td>
+            <td>IsDone: @Model.IsDone</td>
+            <td>IsUrgent: @Model.IsUrgent</td>
+        </tr>
+    </table>
 </body>
 </html>
