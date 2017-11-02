@@ -1,5 +1,5 @@
 ﻿table {
-    background-color: aquamarine;
+    background-color: cadetblue;
     border-style: solid;
     font-weight: bolder;
     padding: 10px;
@@ -9,7 +9,7 @@
 }
 
 td {
-    border: solid 1px darkgreen;
+    border: solid 1px darkred;
     padding: 10px;
     width:200px;
     font-size:20px;
