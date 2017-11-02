@@ -5,13 +5,20 @@
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Stylesheet.css")" />
 </head>
 <body>
-    <form action="/add" method="post">
-        <h2>Add A New Todo</h2>
-        <label for="Title"></label>
-        <input type="text" name="Title" />
-        <div>
-            <button type="submit">Submit</button>
-        </div>
-    </form>
+    <table>
+        <tr>
+            <td>
+                <form action="/add" method="post">
+                    <h2>Add A New Todo</h2>
+                    <label for="Title"></label>
+                    <input type="text" name="Title" />
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+   
 </body>
 </html>
