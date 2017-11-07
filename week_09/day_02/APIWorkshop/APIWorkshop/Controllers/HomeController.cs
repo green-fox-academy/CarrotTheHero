@@ -11,7 +11,18 @@ namespace APIWorkshop.Controllers
         [Route("/")]
         public IActionResult Index()
         {
-            return View();
+            return File("index.html", "text/html");
+        }
+
+        [Route("/doubling")]
+        [HttpGet]
+        public IActionResult Doubling(int? input)
+        {
+            if (input == null)
+            {
+                return Json(new { error = "Please provide an input!" });
+            }
+            return Json(new { received = input, result = input * 2 });
         }
     }
 }
