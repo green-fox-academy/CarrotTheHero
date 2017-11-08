@@ -40,5 +40,26 @@ namespace UnitTest1
             var response = await Client.GetAsync("/appenda");
             Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
         }
+
+        [Fact]
+        public async Task ReturnOkStatusOnDoUntil()
+        {
+            var response = await Client.GetAsync("/dountil");
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        }
+
+        [Fact]
+        public async Task ReturnOkStatusOnAppendAIsOK()
+        {
+            var response = await Client.GetAsync("/appenda/{appendable}");
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        }
+
+        [Fact]
+        public async Task ReturnOkStatusOnIsUntilIsOK()
+        {
+            var response = await Client.GetAsync("/dountil/{what}");
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        }
     }
 }
