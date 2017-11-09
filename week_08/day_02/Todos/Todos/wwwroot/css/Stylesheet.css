@@ -11,8 +11,8 @@
 td {
     border: solid 1px darkred;
     padding: 10px;
-    width:200px;
-    font-size:20px;
+    width: 200px;
+    font-size: 20px;
 }
 
 table tr:first-child td {
@@ -25,7 +25,37 @@ h1 {
     font-size: 40px;
 }
 
-h2{
+h2 {
     font-weight: bolder;
     font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+tr
+{
+text-align: center;
+}
+
+button {
+    padding: 5px;
+}
+#Adding {
+    border-color:white;
 }

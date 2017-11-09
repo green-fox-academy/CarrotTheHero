@@ -4,16 +4,17 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Stylesheet.css")" />
+    @{Layout = "_Layout";}
 </head>
-<body>
-    <table>
+<body class="text-center text" >
+    <table class="table col-sm-1 table-bordered">
         <tr>
             <td>Id: @Model.Id</td>
-            <td>Title:@Model.Title</td>
-            <td>IsUrgent:@Model.IsUrgent</td>
-            <td>IsDone:@Model.IsDone</td>
+            <td>Title: @Model.Title</td>
+            <td>IsUrgent: @Model.IsUrgent</td>
+            <td>IsDone: @Model.IsDone</td>
         </tr>
     </table>
-    <h3><a href="/">Back To The List</a></h3>
+    <h3><a class="btn btn-danger" href="/">Back To The List</a></h3>
 </body>
 </html>

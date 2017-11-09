@@ -2,43 +2,64 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Stylesheet.css")" />
+    @{Layout = "_Layout";}
 </head>
-<body>
+<body class="text-center text" >
     <h1>Task(s) For Today</h1>
     <h2><a href="/add">Add new Todo</a></h2>
-    <table>
-        <tr>
-            <td>Id:</td>
-            <td>Title:</td>
-            <td>IsUrgent:</td>
-            <td>IsDone:</td>
-            <td>Delete Action:</td>
-            <td>Edit Action:</td>
-        </tr>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Id</td>
-                <td>
-                    <a href="/@item.Id/singleinfo">@item.Title</a>
-                    <input type="hidden" name="Id" value="@item.Id" />
-                </td>
-                <td>@item.IsUrgent</td>
-                <td>@item.IsDone</td>
-                <td>
-                    <form action="/(@item.Id)/delete" method="post">
-                        <input type="hidden" name="Id" value="@item.Id" />
-                        <button id="table" class="number" type="submit">Delete</button>
-                    </form>
-                </td>
-                <td>
-                    <form action="/(@item.Id)/update" method="post">
-                        <input type="hidden" name="Id" value="@item.Id" />
-                        <button id="table" class="number" type="submit">Edit</button>
-                    </form>
-                </td>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+        <table class="table table-striped active table-bordered">
+            <tr class="text-uppercase">
+                <td>Id</td>
+                <td>Title</td>
+                <td>Urgent</td>
+                <td>Completed</td>
+                <td>Delete Action</td>
+                <td>Edit Action</td>
             </tr>
-        }
-    </table>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>
+                        <a href="/@item.Id/singleinfo">@item.Title</a>
+                        <input type="hidden" name="Id" value="@item.Id" />
+                    </td>
+                    @if (item.IsUrgent == true)
+                    {
+                        <td class="glyphicon glyphicon-ok-circle"> hello</td>
+                    }
+                    else if (item.IsUrgent == false)
+                    {
+                        <td class="glyphicon glyphicon-ban-circle"> bye</td>
+                    }
+                    @if (item.IsDone == true)
+                    {
+                        <td class="glyphicon glyphicon-ok"> hello</td>
+                    }
+                    else if (item.IsDone == false)
+                    {
+                        <td class="glyphicon glyphicon-remove"> bye</td>
+                    }
+                    <td>
+                        <form action="/(@item.Id)/delete" method="post">
+                            <input type="hidden" name="Id" value="@item.Id" />
+                            <button id="table" class="number btn btn-danger" type="submit">Delete</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="/(@item.Id)/update" method="post">
+                            <input type="hidden" name="Id" value="@item.Id" />
+                            <button id="table" class="number btn btn-danger" type="submit">Edit</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </table>
+                </div>
+            </div>
+    </div>
 </body>
 </html>

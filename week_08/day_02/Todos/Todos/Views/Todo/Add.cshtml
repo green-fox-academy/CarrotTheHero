@@ -3,9 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Stylesheet.css")" />
+    @{Layout = "_Layout";}
 </head>
-<body>
-    <table>
+<body class="text-center text" >
+    <table  id="Adding" class="table">
         <tr>
             <td>
                 <form action="/add" method="post">
@@ -13,7 +14,7 @@
                     <label for="Title"></label>
                     <input type="text" name="Title" />
                     <div>
-                        <button type="submit">Submit</button>
+                        <button class= "btn btn-danger" type="submit">Submit</button>
                     </div>
                 </form>
             </td>
