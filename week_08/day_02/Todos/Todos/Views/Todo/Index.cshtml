@@ -29,19 +29,19 @@
                     </td>
                     @if (item.IsUrgent == true)
                     {
-                        <td>✔</td>
+                        <td style="color:green">✔</td>
                     }
                     else if (item.IsUrgent == false)
                     {
-                        <td>✘</td>
+                        <td style="color:red">✘</td>
                     }
                     @if (item.IsDone == true)
                     {
-                        <td>✔</td>
+                        <td style="color:green">✔</td>
                     }
                     else if (item.IsDone == false)
                     {
-                        <td>✘</td>
+                        <td style="color:red">✘</td>
                     }
                     <td>
                         <form action="/(@item.Id)/delete" method="post">

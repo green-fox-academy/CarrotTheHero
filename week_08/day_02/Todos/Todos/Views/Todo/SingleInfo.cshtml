@@ -10,22 +10,22 @@
     <table class="table col-sm-1 table-bordered">
         <tr>
             <td>Id: @Model.Id</td>
-            <td>Title: @Model.Title</td>
+            <td id="titlerowsingle">Title: @Model.Title</td>
             @if (Model.IsUrgent == true)
             {
-                <td>Is Urgent: ✔</td>
+                <td>Is Urgent: <a style="color:green">✔</a></td>
             }
             else if (Model.IsUrgent == false)
             {
-                <td>Is Urgent: ✘</td>
+                <td>Is Urgent: <a style="color:red">✘</a></td>
             }
             @if (Model.IsDone == true)
             {
-                <td>Is Done: ✔</td>
+                <td>Is Done: <a style="color:green">✔</a></td>
             }
             else if (Model.IsDone == false)
             {
-                <td>Is Done: ✘</td>
+                <td>Is Done: <a style="color:red">✘</a></td>
             }
         </tr>
     </table>
