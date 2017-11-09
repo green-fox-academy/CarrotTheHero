@@ -11,8 +11,22 @@
         <tr>
             <td>Id: @Model.Id</td>
             <td>Title: @Model.Title</td>
-            <td>IsUrgent: @Model.IsUrgent</td>
-            <td>IsDone: @Model.IsDone</td>
+            @if (Model.IsUrgent == true)
+            {
+                <td>Is Urgent: ✔</td>
+            }
+            else if (Model.IsUrgent == false)
+            {
+                <td>Is Urgent: ✘</td>
+            }
+            @if (Model.IsDone == true)
+            {
+                <td>Is Done: ✔</td>
+            }
+            else if (Model.IsDone == false)
+            {
+                <td>Is Done: ✘</td>
+            }
         </tr>
     </table>
     <h3><a class="btn btn-danger" href="/">Back To The List</a></h3>

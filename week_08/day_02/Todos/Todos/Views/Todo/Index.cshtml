@@ -29,19 +29,19 @@
                     </td>
                     @if (item.IsUrgent == true)
                     {
-                        <td class="glyphicon glyphicon-ok-circle"> hello</td>
+                        <td>✔</td>
                     }
                     else if (item.IsUrgent == false)
                     {
-                        <td class="glyphicon glyphicon-ban-circle"> bye</td>
+                        <td>✘</td>
                     }
                     @if (item.IsDone == true)
                     {
-                        <td class="glyphicon glyphicon-ok"> hello</td>
+                        <td>✔</td>
                     }
                     else if (item.IsDone == false)
                     {
-                        <td class="glyphicon glyphicon-remove"> bye</td>
+                        <td>✘</td>
                     }
                     <td>
                         <form action="/(@item.Id)/delete" method="post">
