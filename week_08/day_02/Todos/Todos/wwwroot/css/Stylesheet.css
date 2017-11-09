@@ -1,10 +1,9 @@
 ﻿table {
-    background-color: aquamarine;
     border-style: solid;
     font-weight: bolder;
     padding: 10px;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: darkred;
 }
 
@@ -48,8 +47,7 @@ h3 {
     width: auto;
 }
 
-tr
-{
+tr {
 text-align: center;
 }
 
@@ -58,4 +56,8 @@ button {
 }
 #Adding {
     border-color:white;
+}
+
+#Titlerow {
+    width:350px;
 }
