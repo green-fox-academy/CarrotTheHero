@@ -4,11 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using APIWorkshop.Models;
+using APIWorkshop.Repositories;
 
 namespace APIWorkshop.Controllers
 {
     public class HomeController : Controller
     {
+        HomeRepository HomeRepository;
+
+        public HomeController(HomeRepository homeRepository)
+        {
+            HomeRepository = homeRepository;
+        }
+
         [Route("/")]
         public IActionResult Index()
         {
@@ -84,6 +92,33 @@ namespace APIWorkshop.Controllers
             else
             {
                 return Json(new { error = "Please provide a number!" });
+            }
+        }
+
+        [HttpPost]
+        [Route("arrays")]
+        public IActionResult ArrayHandler([FromBody]ComplexData complexData)
+        {
+            dynamic result = 0;
+
+            if (complexData != null)
+            {
+                if (complexData.Numbers == null || complexData.Numbers.Length == 0)
+                {
+                    return Json(new { error = "Please provide an array of numbers!" });
+                }
+                else if (complexData.What == null)
+                {
+                    return Json(new { error = "Please provide what to do with the numbers!" });
+                }
+                else
+                {
+                    return Json(new { result = HomeRepository.ArithmeticTypeCheck(complexData) });
+                }
+            }
+            else
+            {
+                return Json(new { error = "Please provide proper inputs!" });
             }
         }
     }
