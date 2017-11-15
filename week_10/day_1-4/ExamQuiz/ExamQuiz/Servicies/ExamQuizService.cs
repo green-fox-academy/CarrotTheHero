@@ -1,4 +1,5 @@
-﻿using ExamQuiz.Repositories;
+﻿using ExamQuiz.Models;
+using ExamQuiz.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,11 @@ namespace ExamQuiz.Servicies
         public ExamQuizService(ExamQuizRepository examQuizRepository)
         {
             ExamQuizRepository = examQuizRepository;
+        }
+
+        public List<Quiz> GetFiveQuestion()
+        {
+            return ExamQuizRepository.GetFive();
         }
     }
 }
