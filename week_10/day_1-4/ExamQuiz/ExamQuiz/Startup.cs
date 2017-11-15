@@ -11,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
 using ExamQuiz.Entities;
+using ExamQuiz.Servicies;
+using ExamQuiz.Repositories;
 
 namespace ExamQuiz
 {
@@ -27,6 +29,9 @@ namespace ExamQuiz
             Configuration = builder.Build();
 
             services.AddMvc();
+            services.AddScoped<ExamQuizContext>();
+            services.AddScoped<ExamQuizService>();
+            services.AddScoped<ExamQuizRepository>();
             services.AddDbContext<ExamQuizContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:EQConnection"]));
         }
 
