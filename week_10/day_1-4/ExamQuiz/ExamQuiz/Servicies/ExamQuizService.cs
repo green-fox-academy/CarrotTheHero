@@ -16,9 +16,25 @@ namespace ExamQuiz.Servicies
             ExamQuizRepository = examQuizRepository;
         }
 
-        public List<Quiz> GetFiveQuestion()
+        public QuestionRound GetFiveQuestion()
         {
-            return ExamQuizRepository.GetFive();
+            var Quests = new List<QuestionModel>();
+            var ListOfFive = ExamQuizRepository.GetFive();
+
+            for (int i = 0; i < ListOfFive.Count; i++)
+            {
+                var question = new QuestionModel();
+                question.Id = ListOfFive[i].Id;
+                question.Question = ListOfFive[i].Question;
+                Quests.Add(question);
+            }
+
+            var BigQuestions = new QuestionRound()
+            {
+                Id = 1,
+                Questions = Quests
+            };
+            return BigQuestions;
         }
     }
 }
